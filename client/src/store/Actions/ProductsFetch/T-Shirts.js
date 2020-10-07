@@ -7,7 +7,7 @@ import axios from "axios";
 
 export const T_ShirtsFetchAction = () => async (dispatch) => {
   const url = "http://127.0.0.1:5000/api/clothes/t-shirts";
-  const production_url = "/api/clothes/t-shirt";
+  const production_url = "/api/clothes/t-shirts";
   try {
     dispatch({ type: PRODUCT_FETCH_REQUEST });
     const { data } = await axios.get(production_url);
