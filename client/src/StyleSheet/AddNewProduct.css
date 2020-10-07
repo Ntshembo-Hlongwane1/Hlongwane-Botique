@@ -1,0 +1,53 @@
+.Form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  background-color: #f5f5f5;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+
+.Form__container > h2 {
+  margin-bottom: 1.5em;
+}
+
+.Form__container > h3 {
+  font-weight: 300;
+}
+
+.Form__container > button {
+  margin-top: 3em;
+  border-radius: 999px;
+  padding: 1em;
+  font-weight: 700;
+}
+
+.Form__container > button:hover {
+  background-color: black;
+  color: #ffffff;
+  transition: ease-in-out 0.7s;
+}
+
+.textBox {
+  padding: 1em;
+  margin-bottom: 1.4em;
+}
+
+.Form__container > input {
+  margin-bottom: 1.4em;
+  width: 50%;
+  border-radius: 999px;
+  padding: 0.8em;
+  outline: none;
+}
+
+.categorySelector {
+  margin-bottom: 1.4;
+}
+
+.productStatusText {
+  margin-top: 1em;
+}

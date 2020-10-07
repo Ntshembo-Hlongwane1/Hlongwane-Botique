@@ -1,0 +1,88 @@
+.DesktopNav__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.DesktopTopNav__container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f5f5f5;
+  padding: 0.5em;
+}
+
+.left__container {
+  display: flex;
+  align-items: center;
+}
+
+.right__container {
+  display: flex;
+  align-items: center;
+}
+
+.left__icon,
+.location,
+.right__icon,
+.customer__care {
+  margin-left: 0.5em;
+}
+
+.customer__care {
+  margin-right: 0.5em;
+}
+
+.DesktopBottomNav__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.Right__leftContainier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav__links {
+  display: flex;
+  margin-left: 1em;
+}
+
+.Nav__links > .link {
+  margin-left: 1em;
+}
+
+.Right__rightContainer {
+  display: flex;
+  align-items: center;
+}
+
+.Cart__container {
+  display: flex;
+  align-items: center;
+}
+
+.Search__icon {
+  margin-right: 1em;
+  border-right: 1px solid #f5f5f5;
+}
+.searchIcon {
+  margin-right: 1em;
+}
+
+.user,
+.wish__list,
+.cart {
+  margin-right: 1em;
+}
+
+.location > h4,
+.customer__care > h4,
+.link > h4 {
+  font-weight: 300;
+}
+
+.Company__name > h2 {
+  margin-left: 0.8em;
+}
